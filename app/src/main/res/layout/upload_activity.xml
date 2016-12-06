@@ -7,15 +7,15 @@
     android:orientation="vertical"
     tools:context="com.imageupload.UploadActivity">
 
-
     <Button
+        android:id="@+id/signout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Upload"
+        android:text="Signout"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/upload"
         android:layout_gravity="center_horizontal"
-        android:layout_alignParentTop="true" />
+        android:layout_marginTop="20dp"
+        />
 
     <Button
         android:id="@+id/viewbutton"
@@ -27,38 +27,12 @@
         android:layout_marginTop="15dp"
         />
 
-    <ImageView
-        android:id="@+id/view"
-        android:layout_weight="1"
+    <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/circleView"
         />
-    <TextView
-        android:id="@+id/progressview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="center_horizontal"
-        android:text=""
-    />
-    <LinearLayout
-        android:layout_weight="0.20"
-        android:id="@+id/progress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_alignParentBottom="true"
-        >
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="20dp"
-        android:layout_weight="1"
-        android:visibility="gone"
-        android:layout_gravity="start"
-        />
-    </LinearLayout>
+
 </LinearLayout>

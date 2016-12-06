@@ -30,4 +30,5 @@
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="forgot_password_msg">We need your registered Email-ID to send you password reset instructions.</string>
     <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="signout">Signout</string>
 </resources>
